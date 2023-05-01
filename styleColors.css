@@ -1,0 +1,106 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', serif;
+
+}
+/*HEADER*/
+
+/*h1 si backround image*/
+.header{
+    background-image: url("https://www.bakemag.com/ext/resources/images/2020/8/DesignThinking.jpg?height=667&t=1598972789&width=1080");
+    height: 600px;
+    width: 700px;
+   
+}
+
+h1{
+    color:#191970;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    left: 170px;
+    font-size: 50px;
+
+}
+
+
+/*ul*/
+.breadcrumb li{
+    display: inline;
+    border: 1.5px solid #191970;
+    border-radius: 3px;
+    background-color:#faebd7;
+
+}
+
+.breadcrumb li+li::before{
+    content: ">";
+}
+
+/* hiperlink */
+.breadcrumb a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 14px;
+    color: #191970;
+    margin: 10px;
+    font-weight: bold;
+
+
+}
+
+#curent-page{
+    color:#000000;
+}
+
+.topics ul{
+    padding: 10px;
+}
+
+
+/*MAIN */
+
+/*h2 si cele 4 divs*/
+.main{
+    border: 2px solid #000000;
+}
+
+.main h2{
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+/*toate div ce contin o culoare*/
+.color{
+    height: 200px;
+    text-align: center;
+    /* distanta dintre marginea div si continut (continutul : paragrafele)*/
+    padding: 20px;
+}
+.color p{
+    color: #000000;
+    font-size: 18px;
+}
+
+
+/*fiecare div individual , pe rand*/
+#pink{
+    background-color: #FFB6C1;
+}
+
+#coral{
+    background-color: #FF7F50;
+}
+
+#green{
+    background-color: #2E8B57	;
+}
+
+#maroon{
+    background-color: #800000;
+}
+

@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+/*HEADER*/
+
+/*ul*/
+.breadcrumb li{
+    display: inline;
+    border: 1.5px solid #191970;
+    border-radius: 3px;
+    background-color:#faebd7;
+
+}
+
+.breadcrumb li+li::before{
+    content: ">";
+}
+
+/* hiperlink */
+.breadcrumb a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 14px;
+    color: #191970;
+    margin: 10px;
+    font-weight: bold;
+
+
+}
+
+#curent-page{
+    color:#000000;
+}
+
+.topics ul{
+    padding: 10px;
+}
+
+/*MAIN*/
+
+/*h2 si cele 4 divs*/
+.main{
+    border: 2px solid #000000;
+}
+
+.main h2{
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+
+/*div ce contine fiecare font in parte*/
+.font-container {
+    height: 300px;
+    border: 1.5px solid #FFFFFF;
+    background-color: #000000;
+    padding-left: 10px;
+    color: #FFFFFF ;
+}
+/*toate propr comune fonturilor*/
+.the-font{
+    text-align: center;
+    font-size: 30px;
+    color: #f6b30b;
+}
+.montserrat{
+    font-family: "Montserrat", 'Times New Roman', sans-serif;
+}
+
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.Roboto-mono{
+    font-family: "Roboto Mono", monospace, 'Times New Roman', serif;
+}
+
+.Dosis{
+    font-family: 'Dosis', sans-serif, 'Times New Roman';
+}
+
+.Handlee{
+    font-family: 'Handlee', cursive, 'Times New Roman', sans-serif;
+}
