@@ -43,7 +43,6 @@ body{
 
 /*MAIN*/
 
-/*h2 si cele 4 divs*/
 .main{
     border: 2px solid #000000;
 }
@@ -54,7 +53,7 @@ body{
 
 }
 
-/*div ce contine fiecare font in parte*/
+
 .font-container {
     height: 300px;
     border: 1.5px solid #FFFFFF;
@@ -62,7 +61,7 @@ body{
     padding-left: 10px;
     color: #FFFFFF ;
 }
-/*toate propr comune fonturilor*/
+
 .the-font{
     text-align: center;
     font-size: 30px;
