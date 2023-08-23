@@ -97,3 +97,11 @@ h1{
     background-color: #800000;
 }
 
+@media only screen and (max-width:760px){
+   h1{
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+   }
+}
